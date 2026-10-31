@@ -1,0 +1,8 @@
+UI redesign notes
+- Original ANIME-VPS application/backend functionality and server runtime files are retained.
+- Frontend templates share a consistent CODEXGOJO-inspired theme system (matrix, neon, blood, ice).
+- Theme selection is synchronized across pages and persisted in localStorage.
+- Icon-only server actions now show compact labeled premium controls; theme/effects controls are labeled too.
+- Successful login creates a persistent 30-day Flask session; authenticated sessions are upgraded to the same policy.
+- Flask signing key is persisted in .flask_secret_key when the app first starts. Set SECRET_KEY as a stable environment variable on hosting platforms where the filesystem may be reset between deployments.
+- Existing login branding, wording, image assets, and application features are preserved.

@@ -1,0 +1,33 @@
+{
+  "servers": {
+    "FILE": {
+      "name": "FILE",
+      "owner": "tanmay",
+      "runtime": "python",
+      "status": "running",
+      "main_file": "",
+      "main_command": "",
+      "port": 8080,
+      "pid": 30949,
+      "created": "2026-10-31T23:41:02.284060"
+    }
+  },
+  "users": {
+    "admin": {
+      "joined": "2026-07-09T13:19:43.636383",
+      "password_hash": "ef260e9aa3c673af240d17a2660480361a8e081d1ffeca2a5ed0e3219fc18567"
+    },
+    "tanmay": {
+      "joined": "2026-08-08T11:51:41.536184",
+      "password_hash": "e291bd5125ab560c786fd27b91861471dcc6250a6fc4528367045bcdb4fff604"
+    }
+  },
+  "settings": {
+    "maintenance": false,
+    "maintenance_msg": "System under maintenance.",
+    "theme_color": "#00ff66",
+    "normal_password": "ARPAN",
+    "site_name": "ARPAN VPS",
+    "auto_restart_interval": 300
+  }
+}
